@@ -27,7 +27,7 @@ const Projects = () => {
       description: "A facial recognition application using computer vision and deep learning. Features real-time detection, emotion analysis, and secure identity verification capabilities.",
       image: faceScannerImg,
       technologies: ["Python", "OpenCV", "TensorFlow", "Deep Learning", "Flask"],
-      githubUrl: "https://github.com/AtikshC/face-scanner"
+      githubUrl: "https://github.com/AtikshC/FaceScanner"
     },
     {
       title: "Earthquake SQL",
