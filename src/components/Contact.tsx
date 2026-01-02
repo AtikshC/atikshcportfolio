@@ -25,20 +25,20 @@ const Contact = () => {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-12">
             <div className="flex items-center gap-2 text-muted-foreground">
               <MapPin className="w-4 h-4 text-primary" />
-              <span>London, Ontario, Canada</span>
+              <span>Mississauga, Ontario, Canada</span>
             </div>
             <div className="hidden sm:block w-1 h-1 rounded-full bg-muted-foreground" />
             <div className="flex items-center gap-2 text-muted-foreground">
               <Mail className="w-4 h-4 text-primary" />
-              <a href="mailto:atiksh@example.com" className="hover:text-primary transition-colors">
-                atiksh@example.com
+              <a href="mailto:atiksh.chawla06@gmail.com" className="hover:text-primary transition-colors">
+                atiksh.chawla06@gmail.com
               </a>
             </div>
           </div>
 
           {/* CTA Button */}
           <Button variant="hero" size="xl" asChild className="mb-12">
-            <a href="mailto:atiksh@example.com">
+            <a href="mailto:atiksh.chawla06@gmail.com">
               Say Hello
               <ArrowUpRight className="w-5 h-5 ml-2" />
             </a>
@@ -57,7 +57,7 @@ const Contact = () => {
             </a>
             <span className="w-1 h-1 rounded-full bg-muted-foreground" />
             <a 
-              href="https://linkedin.com/in/atikshchawla"
+              href="https://www.linkedin.com/in/atiksh-chawla-77ab922a5"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
