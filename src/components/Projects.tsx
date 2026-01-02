@@ -12,7 +12,7 @@ const Projects = () => {
       image: campusLostFoundImg,
       technologies: ["React", "TypeScript", "Node.js", "PostgreSQL", "Supabase", "Tailwind CSS", "REST API"],
       githubUrl: "https://github.com/AtikshC/campus-lost-found",
-      liveUrl: "https://campuslostandfound.com",
+      liveUrl: "https://campus-lost-found-omega.vercel.app/",
       featured: true
     },
     {
