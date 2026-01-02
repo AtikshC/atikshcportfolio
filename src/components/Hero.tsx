@@ -79,7 +79,7 @@ const Hero = () => {
               <Github className="w-5 h-5 text-muted-foreground group-hover:text-primary transition-colors" />
             </a>
             <a 
-              href="https://linkedin.com/in/atikshchawla" 
+              href="https://www.linkedin.com/in/atiksh-chawla-77ab922a5" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-3 rounded-xl bg-secondary hover:bg-surface-hover border border-border hover:border-primary/30 transition-all duration-300 group"
@@ -87,7 +87,7 @@ const Hero = () => {
               <Linkedin className="w-5 h-5 text-muted-foreground group-hover:text-primary transition-colors" />
             </a>
             <a 
-              href="mailto:atiksh@example.com"
+              href="mailto:atiksh.chawla06@gmail.com"
               className="p-3 rounded-xl bg-secondary hover:bg-surface-hover border border-border hover:border-primary/30 transition-all duration-300 group"
             >
               <Mail className="w-5 h-5 text-muted-foreground group-hover:text-primary transition-colors" />
