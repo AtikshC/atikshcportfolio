@@ -20,7 +20,7 @@ const Projects = () => {
       description: "An intelligent code analysis tool that provides insights into code quality, complexity metrics, and potential improvements. Uses AST parsing and machine learning for smart suggestions.",
       image: codebaseAnalyzerImg,
       technologies: ["Python", "TypeScript", "Machine Learning", "AST", "React"],
-      githubUrl: "https://github.com/AtikshC/codebase-analyzer"
+      githubUrl: "https://github.com/AtikshC/Codebase_Analyzer"
     },
     {
       title: "Face Scanner",
