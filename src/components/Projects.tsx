@@ -4,6 +4,8 @@ import campusLostFoundImg from "@/assets/campus-lost-found.png";
 import codebaseAnalyzerImg from "@/assets/codebase-analyzer.png";
 import faceScannerImg from "@/assets/face-scanner.png";
 import earthquakeSqlImg from "@/assets/earthquake-sql.png";
+import assistiveMouseImg from "@/assets/assistive-mouse.png";
+import voiceAiImg from "@/assets/voice-ai.png";
 import { Github } from "lucide-react";
 
 const Projects = () => {
@@ -41,14 +43,14 @@ const Projects = () => {
     {
       title: "Assistive Mouse Interface",
       description: "Hands-free navigation system using OpenCV, mapping real-time facial landmarks and head-tracking algorithms to precise cursor movements for enhanced accessibility.",
-      image: null,
+      image: assistiveMouseImg,
       technologies: ["Python", "OpenCV", "Computer Vision", "Accessibility", "Real-time"],
       githubUrl: "https://github.com/AtikshC"
     },
     {
       title: "Voice AI Integration",
       description: "Voice-AI integration modules for real-time speech recognition and intent parsing. Built microservices for audio preprocessing and ASR/NLU pipeline orchestration.",
-      image: null,
+      image: voiceAiImg,
       technologies: ["Python", "Node.js", "Speech Recognition", "NLU", "Microservices"],
       githubUrl: "https://github.com/AtikshC"
     }

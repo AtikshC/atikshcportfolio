@@ -45,19 +45,8 @@ const Hero = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Text content */}
             <div className="text-center lg:text-left">
-              {/* Status badge */}
-              <motion.div 
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5 }}
-              >
-                <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-secondary/80 backdrop-blur-sm border border-primary/20 text-sm text-muted-foreground mb-8">
-                  <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-                  Open to opportunities
-                </span>
-              </motion.div>
-
               {/* Main heading */}
+
               <motion.h1 
                 className="font-display text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-6"
                 initial={{ opacity: 0, y: 30 }}
@@ -68,15 +57,21 @@ const Hero = () => {
                 <span className="text-gradient block mt-2">Atiksh Chawla</span>
               </motion.h1>
 
-              {/* Subtitle */}
-              <motion.p 
-                className="text-xl md:text-2xl text-muted-foreground font-body mb-4"
+              {/* Subtitle with status badge */}
+              <motion.div 
+                className="flex flex-col sm:flex-row items-center lg:items-start gap-3 mb-4"
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.2 }}
               >
-                Software Developer & CS Student
-              </motion.p>
+                <p className="text-xl md:text-2xl text-muted-foreground font-body">
+                  Software Developer & CS Student
+                </p>
+                <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-sm text-emerald-400">
+                  <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+                  Open to work
+                </span>
+              </motion.div>
 
               {/* University & GPA */}
               <motion.p 
