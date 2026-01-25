@@ -38,14 +38,14 @@ const Projects = () => {
       description: "A powerful database application for analyzing and visualizing earthquake data. Features complex SQL queries, data aggregation, and interactive visualizations of seismic activity.",
       image: earthquakeSqlImg,
       technologies: ["SQL", "Python", "PostgreSQL", "Data Visualization", "Pandas"],
-      githubUrl: "https://github.com/AtikshC/earthquake-sql"
+      githubUrl: "https://github.com/AtikshC/Earthquake_sql"
     },
     {
       title: "Assistive Mouse Interface",
       description: "Hands-free navigation system using OpenCV, mapping real-time facial landmarks and head-tracking algorithms to precise cursor movements for enhanced accessibility.",
       image: assistiveMouseImg,
       technologies: ["Python", "OpenCV", "Computer Vision", "Accessibility", "Real-time"],
-      githubUrl: "https://github.com/AtikshC"
+      githubUrl: "https://github.com/AtikshC/MouseHead"
     },
     {
       title: "Voice AI Integration",
