@@ -56,6 +56,7 @@ export default {
           glow: "hsl(var(--cyan-glow))",
           muted: "hsl(var(--cyan-muted))",
         },
+        "cyan-glow": "hsl(var(--cyan-glow))",
         surface: {
           DEFAULT: "hsl(var(--surface))",
           hover: "hsl(var(--surface-hover))",
