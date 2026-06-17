@@ -54,7 +54,7 @@ const Projects = () => {
         <div className="max-w-6xl mx-auto">
           <div className="mb-16">
             <span className="inline-block bg-primary border-[3px] border-ink shadow-brutal-sm px-3 py-1 text-xs font-bold uppercase tracking-widest mb-6">
-              Portfolio
+              03 — Portfolio
             </span>
             <h2 className="font-display text-5xl md:text-7xl font-normal text-ink mb-6 leading-[0.95]">
               Selected{" "}

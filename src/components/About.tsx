@@ -21,7 +21,7 @@ const About = () => {
         <div className="max-w-6xl mx-auto">
           <div className="mb-16">
             <span className="inline-block bg-accent border-[3px] border-ink shadow-brutal-sm px-3 py-1 text-xs font-bold uppercase tracking-widest mb-6">
-              About Me
+              01 — About Me
             </span>
             <h2 className="font-display text-5xl md:text-7xl font-normal text-ink mb-6 leading-[0.95]">
               Driven by curiosity,<br />
