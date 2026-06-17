@@ -2,114 +2,73 @@ import { Award, BookOpen, Code2, Sparkles } from "lucide-react";
 
 const About = () => {
   const highlights = [
-    {
-      icon: Award,
-      title: "4.0 GPA",
-      description: "Dean's List every semester"
-    },
-    {
-      icon: BookOpen,
-      title: "Honours Specialization",
-      description: "Computer Science"
-    },
-    {
-      icon: Code2,
-      title: "Full-Stack Developer",
-      description: "Frontend & Backend"
-    },
-    {
-      icon: Sparkles,
-      title: "AI/ML Enthusiast",
-      description: "Machine Learning Projects"
-    }
+    { icon: Award, title: "4.0 GPA", description: "Dean's List every semester", bg: "bg-primary" },
+    { icon: BookOpen, title: "Honours CS", description: "Western University", bg: "bg-secondary text-white" },
+    { icon: Code2, title: "Full-Stack", description: "Frontend & Backend", bg: "bg-accent" },
+    { icon: Sparkles, title: "AI / ML", description: "Applied ML projects", bg: "bg-mint" },
   ];
 
   const skills = [
-    "TypeScript", "React", "Next.js", "Node.js", "Python", 
+    "TypeScript", "React", "Next.js", "Node.js", "Python",
     "PostgreSQL", "MongoDB", "Docker", "Git", "REST APIs",
     "Machine Learning", "TensorFlow", "OpenCV", "Java", "C++",
-    "Tailwind CSS", "Supabase", "AWS", "Agile", "CI/CD"
+    "Tailwind CSS", "Supabase", "AWS", "Agile", "CI/CD",
   ];
 
   return (
-    <section id="about" className="py-24 md:py-32 relative">
-      <div className="absolute inset-0 bg-gradient-to-b from-background via-secondary/30 to-background" />
-      
-      <div className="container relative z-10 px-6">
+    <section id="about" className="py-24 md:py-32 border-t-[3px] border-ink bg-background">
+      <div className="container px-6">
         <div className="max-w-6xl mx-auto">
-          {/* Section header */}
-          <div className="text-center mb-16">
-            <span className="text-primary text-sm font-medium uppercase tracking-widest mb-4 block">
+          <div className="mb-16">
+            <span className="inline-block bg-accent border-[3px] border-ink shadow-brutal-sm px-3 py-1 text-xs font-bold uppercase tracking-widest mb-6">
               About Me
             </span>
-            <h2 className="font-display text-4xl md:text-5xl font-bold text-foreground mb-6">
-              Driven by Curiosity,{" "}
-              <span className="text-gradient">Powered by Code</span>
+            <h2 className="font-display text-5xl md:text-7xl font-normal text-ink mb-6 leading-[0.95]">
+              Driven by curiosity,<br />
+              powered by{" "}
+              <span className="inline-block bg-primary border-[3px] border-ink px-3 -rotate-1 shadow-brutal-sm">
+                code
+              </span>.
             </h2>
-            <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
-              I'm a Computer Science student at Western University with a passion for 
-              building innovative solutions that make a real difference.
+            <p className="text-ink/80 max-w-2xl text-lg">
+              I'm a CS student at Western University building things at the intersection of
+              software engineering, AI, and developer tooling.
             </p>
           </div>
 
-          {/* Highlights grid */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-16">
-            {highlights.map((item, index) => (
-              <div 
-                key={index}
-                className="p-6 rounded-2xl bg-card border border-border hover:border-primary/30 transition-all duration-300 group"
-              >
-                <div className="w-12 h-12 rounded-xl bg-secondary flex items-center justify-center mb-4 group-hover:bg-primary/10 transition-colors">
-                  <item.icon className="w-6 h-6 text-primary" />
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-5 mb-20">
+            {highlights.map((item, i) => (
+              <div key={i} className={`${item.bg} border-[3px] border-ink shadow-brutal p-6 hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-brutal-sm transition-all`}>
+                <div className="w-10 h-10 bg-background border-[3px] border-ink flex items-center justify-center mb-4">
+                  <item.icon className="w-5 h-5 text-ink" />
                 </div>
-                <h3 className="font-display text-xl font-semibold text-foreground mb-1">
-                  {item.title}
-                </h3>
-                <p className="text-sm text-muted-foreground">
-                  {item.description}
-                </p>
+                <h3 className="font-display text-2xl font-normal mb-1 leading-tight">{item.title}</h3>
+                <p className="text-sm font-medium opacity-90">{item.description}</p>
               </div>
             ))}
           </div>
 
-          {/* Bio & Skills */}
-          <div className="grid md:grid-cols-2 gap-12 items-start">
-            <div className="space-y-6">
-              <h3 className="font-display text-2xl font-semibold text-foreground">
-                My Journey
-              </h3>
-              <div className="space-y-4 text-muted-foreground leading-relaxed">
-                <p>
-                  As a student in the Honours Specialization program at Western University, 
-                  I've maintained a perfect 4.0 GPA while diving deep into software development, 
-                  algorithms, and artificial intelligence.
-                </p>
-                <p>
-                  My passion lies in creating applications that solve real problems. From building 
-                  a comprehensive lost and found system for my campus community to developing 
-                  machine learning models for facial recognition, I love tackling challenging 
-                  projects that push the boundaries of what's possible.
-                </p>
-                <p>
-                  When I'm not coding, you'll find me exploring new technologies, contributing 
-                  to open-source projects, and mentoring fellow students in their programming journey.
-                </p>
+          <div className="grid md:grid-cols-2 gap-10 items-start">
+            <div className="bg-card border-[3px] border-ink shadow-brutal p-8">
+              <h3 className="font-display text-3xl font-normal mb-6">My Journey</h3>
+              <div className="space-y-4 text-ink/85 leading-relaxed">
+                <p>As an Honours Specialization student at Western, I've maintained a perfect 4.0 GPA while diving deep into software, algorithms, and AI.</p>
+                <p>My passion is shipping things that solve real problems — from a campus lost & found used by hundreds of students to ML tools and developer utilities.</p>
+                <p>Outside coursework I contribute to open source, mentor peers, and explore anything that pushes the craft forward.</p>
               </div>
             </div>
 
             <div>
-              <h3 className="font-display text-2xl font-semibold text-foreground mb-6">
-                Skills & Technologies
-              </h3>
+              <h3 className="font-display text-3xl font-normal mb-6">Skills & Tools</h3>
               <div className="flex flex-wrap gap-2">
-                {skills.map((skill, index) => (
-                  <span 
-                    key={index}
-                    className="px-4 py-2 rounded-lg bg-secondary text-foreground text-sm font-medium border border-border hover:border-primary/50 hover:bg-surface-hover transition-all duration-300 cursor-default"
-                  >
-                    {skill}
-                  </span>
-                ))}
+                {skills.map((skill, i) => {
+                  const tones = ["bg-background", "bg-primary", "bg-mint", "bg-lilac", "bg-accent/70"];
+                  return (
+                    <span key={i} className={`${tones[i % tones.length]} px-3 py-1.5 border-[3px] border-ink text-sm font-bold text-ink shadow-brutal-sm hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-none transition-all cursor-default`}>
+                      {skill}
+                    </span>
+                  );
+                })}
               </div>
             </div>
           </div>

@@ -3,67 +3,47 @@ import { Button } from "./ui/button";
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-24 md:py-32 relative">
-      <div className="absolute inset-0 bg-gradient-to-t from-secondary/50 via-background to-background" />
-      
-      <div className="container relative z-10 px-6">
+    <section id="contact" className="py-24 md:py-32 border-t-[3px] border-ink bg-primary">
+      <div className="container px-6">
         <div className="max-w-4xl mx-auto text-center">
-          {/* Section header */}
-          <span className="text-primary text-sm font-medium uppercase tracking-widest mb-4 block">
+          <span className="inline-block bg-background border-[3px] border-ink shadow-brutal-sm px-3 py-1 text-xs font-bold uppercase tracking-widest mb-6">
             Get In Touch
           </span>
-          <h2 className="font-display text-4xl md:text-6xl font-bold text-foreground mb-6">
-            Let's Build Something{" "}
-            <span className="text-gradient">Amazing</span>
+          <h2 className="font-display text-5xl md:text-7xl font-normal text-ink mb-6 leading-[0.95]">
+            Let's build something{" "}
+            <span className="inline-block bg-secondary text-white border-[3px] border-ink px-3 -rotate-1 shadow-brutal-sm">
+              amazing
+            </span>.
           </h2>
-          <p className="text-muted-foreground text-lg mb-12 max-w-2xl mx-auto">
-            I'm always interested in hearing about new opportunities, 
-            collaborations, or just having a chat about technology and innovation.
+          <p className="text-ink/85 text-lg mb-10 max-w-2xl mx-auto">
+            I'm always interested in new opportunities, collaborations, or a chat about tech and what we should build next.
           </p>
 
-          {/* Contact info */}
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-12">
-            <div className="flex items-center gap-2 text-muted-foreground">
-              <MapPin className="w-4 h-4 text-primary" />
-              <span>Mississauga, Ontario, Canada</span>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-10">
+            <div className="flex items-center gap-2 bg-background border-[3px] border-ink shadow-brutal-sm px-4 py-2">
+              <MapPin className="w-4 h-4 text-ink" />
+              <span className="text-ink font-medium text-sm">Mississauga, ON, Canada</span>
             </div>
-            <div className="hidden sm:block w-1 h-1 rounded-full bg-muted-foreground" />
-            <div className="flex items-center gap-2 text-muted-foreground">
-              <Mail className="w-4 h-4 text-primary" />
-              <a href="mailto:atiksh.chawla06@gmail.com" className="hover:text-primary transition-colors">
-                atiksh.chawla06@gmail.com
-              </a>
-            </div>
+            <a href="mailto:atiksh.chawla06@gmail.com" className="flex items-center gap-2 bg-background border-[3px] border-ink shadow-brutal-sm px-4 py-2 hover:bg-accent transition-colors">
+              <Mail className="w-4 h-4 text-ink" />
+              <span className="text-ink font-medium text-sm">atiksh.chawla06@gmail.com</span>
+            </a>
           </div>
 
-          {/* CTA Button */}
-          <Button variant="hero" size="xl" asChild className="mb-12">
+          <Button variant="hero" asChild className="mb-12">
             <a href="mailto:atiksh.chawla06@gmail.com">
-              Say Hello
-              <ArrowUpRight className="w-5 h-5 ml-2" />
+              Say Hello <ArrowUpRight className="w-5 h-5 ml-2" />
             </a>
           </Button>
 
-          {/* Social links */}
-          <div className="flex items-center justify-center gap-6">
-            <a 
-              href="https://github.com/AtikshC"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
-            >
-              <Github className="w-5 h-5" />
-              <span>GitHub</span>
+          <div className="flex items-center justify-center gap-4">
+            <a href="https://github.com/AtikshC" target="_blank" rel="noopener noreferrer"
+              className="flex items-center gap-2 bg-background border-[3px] border-ink shadow-brutal-sm px-4 py-2 hover:bg-secondary hover:text-white transition-colors font-bold">
+              <Github className="w-5 h-5" /> GitHub
             </a>
-            <span className="w-1 h-1 rounded-full bg-muted-foreground" />
-            <a 
-              href="https://www.linkedin.com/in/atiksh-chawla-77ab922a5"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
-            >
-              <Linkedin className="w-5 h-5" />
-              <span>LinkedIn</span>
+            <a href="https://www.linkedin.com/in/atiksh-chawla-77ab922a5" target="_blank" rel="noopener noreferrer"
+              className="flex items-center gap-2 bg-background border-[3px] border-ink shadow-brutal-sm px-4 py-2 hover:bg-secondary hover:text-white transition-colors font-bold">
+              <Linkedin className="w-5 h-5" /> LinkedIn
             </a>
           </div>
         </div>
