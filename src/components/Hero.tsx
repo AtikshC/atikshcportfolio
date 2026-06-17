@@ -1,6 +1,6 @@
 import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
 import { Button } from "./ui/button";
-import profile from "@/assets/profile-photo.png";
+
 
 const Hero = () => {
   return (
@@ -68,16 +68,19 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* Photo card */}
+          {/* Initials card */}
           <div className="relative animate-fade-up delay-200 justify-self-center lg:justify-self-end">
             <div className="relative w-64 md:w-72 bg-primary border-[3px] border-ink shadow-brutal-lg rotate-2">
-              <img src={profile} alt="Atiksh Chawla" className="w-full h-auto block border-b-[3px] border-ink" />
+              <div className="aspect-square bg-secondary border-b-[3px] border-ink flex items-center justify-center">
+                <span className="font-display text-[10rem] leading-none text-background">AC</span>
+              </div>
               <div className="p-3 bg-background text-center">
                 <p className="font-display text-xl text-ink leading-none">Hi, I'm Atiksh 👋</p>
                 <p className="text-xs uppercase tracking-widest text-ink/70 mt-1">est. Mississauga, ON</p>
               </div>
             </div>
           </div>
+
         </div>
 
         <div className="mt-16 flex justify-center animate-fade-in delay-500">
