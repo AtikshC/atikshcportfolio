@@ -54,7 +54,7 @@ const Experience = () => {
         <div className="max-w-5xl mx-auto">
           <div className="mb-16">
             <span className="inline-block bg-secondary text-white border-[3px] border-ink shadow-brutal-sm px-3 py-1 text-xs font-bold uppercase tracking-widest mb-6">
-              02 — Experience
+              02 / Experience
             </span>
             <h2 className="font-display text-5xl md:text-7xl font-normal text-ink leading-[0.95]">
               Where I've{" "}

@@ -46,7 +46,7 @@ const Hero = () => {
             </p>
 
             <p className="text-ink/70 max-w-xl mb-10 leading-relaxed animate-fade-up delay-400">
-              I build pragmatic, opinionated software — full-stack apps, ML tools, and developer tooling that solves real problems.
+              I build pragmatic, opinionated software: full-stack apps, ML tools, and developer tooling that solves real problems.
             </p>
 
             <div className="flex flex-wrap items-center gap-4 mb-10 animate-fade-up delay-500">
@@ -83,7 +83,7 @@ const Hero = () => {
               <div className="border-[3px] border-ink overflow-hidden">
                 <img src={profile.url} alt="Atiksh Chawla portrait" className="w-full h-auto block" />
               </div>
-              <p className="font-display italic text-2xl text-ink text-center mt-3 leading-none">— Atiksh, '26</p>
+              <p className="font-display italic text-2xl text-ink text-center mt-3 leading-none">Atiksh, '26</p>
             </div>
           </div>
         </div>

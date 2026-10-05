@@ -22,7 +22,7 @@ const About = () => {
         <div className="max-w-6xl mx-auto">
           <div className="mb-16">
             <span className="inline-block bg-accent border-[3px] border-ink shadow-brutal-sm px-3 py-1 text-xs font-bold uppercase tracking-widest mb-6">
-              01 — About Me
+              01 / About Me
             </span>
             <h2 className="font-display text-5xl md:text-7xl font-normal text-ink mb-6 leading-[0.95]">
               Driven by curiosity,<br />
@@ -55,7 +55,7 @@ const About = () => {
               <div className="space-y-4 text-ink/85 leading-relaxed">
                 <p>I'm in the Ivey HBA + Computer Science dual degree at Western (class of 2028), holding a 3.9 GPA and making the Dean's List every year.</p>
                 <p>I've done AI research at BMO and in adversarial ML at Western, built voice-AI systems at SalesCode.ai, and shipped campus apps with the Western Developers Society.</p>
-                <p>I'm AWS certified in Cloud and AI, and I love shipping things that solve real problems — like a lost & found platform for my whole campus.</p>
+                <p>I'm AWS certified in Cloud and AI, and I love shipping things that solve real problems, like a lost & found platform for my whole campus.</p>
               </div>
             </div>
 
