@@ -1,4 +1,5 @@
-import { Award, BookOpen, Code2, Sparkles } from "lucide-react";
+import { Award, BookOpen, Code2, Sparkles, Trophy, GraduationCap } from "lucide-react";
+import { motion } from "framer-motion";
 
 const About = () => {
   const highlights = [
@@ -35,7 +36,7 @@ const About = () => {
               I'm pursuing an Ivey HBA + Honours Specialization in Computer Science at Western University,
               building at the intersection of software engineering, AI, and business.
             </p>
-          </div>
+          </motion.div>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-5 mb-20">
             {highlights.map((item, i) => (
@@ -47,7 +48,7 @@ const About = () => {
                 <p className="text-sm font-medium opacity-90">{item.description}</p>
               </div>
             ))}
-          </div>
+          </motion.div>
 
           <div className="grid md:grid-cols-2 gap-10 items-start">
             <div className="bg-card border-[3px] border-ink shadow-brutal p-8">
@@ -57,7 +58,6 @@ const About = () => {
                 <p>I've done AI research at BMO and in adversarial ML at Western, built voice-AI systems at SalesCode.ai, and shipped campus apps with the Western Developers Society.</p>
                 <p>I'm AWS certified in Cloud and AI, and I love shipping things that solve real problems, like a lost & found platform for my whole campus.</p>
               </div>
-            </div>
 
             <div>
               <h3 className="font-display text-3xl font-normal mb-6">Skills & Tools</h3>
@@ -71,7 +71,7 @@ const About = () => {
                   );
                 })}
               </div>
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>

@@ -1,4 +1,4 @@
-import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
+import { ArrowDown, Github, Linkedin, Mail, Download } from "lucide-react";
 import { Button } from "./ui/button";
 import profile from "@/assets/profile-photo.png.asset.json";
 
@@ -92,7 +92,7 @@ const Hero = () => {
           <a href="#about" className="flex items-center gap-2 text-ink font-bold uppercase text-xs tracking-widest border-[3px] border-ink bg-background px-4 py-2 shadow-brutal-sm hover:bg-primary transition-colors">
             Scroll <ArrowDown className="w-4 h-4 animate-bounce" />
           </a>
-        </div>
+        </motion.div>
       </div>
     </section>
   );

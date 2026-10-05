@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
@@ -48,6 +49,23 @@ const Projects = () => {
     },
   ];
 
+  const containerVariants = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: { staggerChildren: 0.15 }
+    }
+  };
+
+  const itemVariants = {
+    hidden: { opacity: 0, y: 30 },
+    visible: { 
+      opacity: 1, 
+      y: 0,
+      transition: { duration: 0.5 }
+    }
+  };
+
   return (
     <section id="projects" className="py-24 md:py-32 border-t-[3px] border-ink bg-background">
       <div className="container px-6">
@@ -65,13 +83,13 @@ const Projects = () => {
             <p className="text-ink/80 max-w-2xl text-lg">
               Things I've built across full-stack development, machine learning, and data engineering.
             </p>
-          </div>
+          </motion.div>
 
           <div className="grid md:grid-cols-2 gap-6">
             {projects.map((p, i) => (
               <ProjectCard key={i} {...p} />
             ))}
-          </div>
+          </motion.div>
 
           <div className="mt-12 flex justify-center">
             <a
