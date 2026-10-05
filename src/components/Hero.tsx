@@ -40,9 +40,9 @@ const Hero = () => {
             </p>
 
             <p className="text-base md:text-lg text-ink/80 mb-8 animate-fade-up delay-300">
-              Honours Specialization in CS at{" "}
+              Ivey HBA + Honours CS at{" "}
               <span className="font-bold underline decoration-secondary decoration-4 underline-offset-4">Western University</span>{" "}
-              · <span className="bg-primary border-2 border-ink px-1.5 font-bold">4.0 GPA</span>
+              · <span className="bg-primary border-2 border-ink px-1.5 font-bold">3.9 GPA</span> · AI Research Intern @ BMO
             </p>
 
             <p className="text-ink/70 max-w-xl mb-10 leading-relaxed animate-fade-up delay-400">

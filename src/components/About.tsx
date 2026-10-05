@@ -2,17 +2,18 @@ import { Award, BookOpen, Code2, Sparkles } from "lucide-react";
 
 const About = () => {
   const highlights = [
-    { icon: Award, title: "4.0 GPA", description: "Dean's List every semester", bg: "bg-primary" },
-    { icon: BookOpen, title: "Honours CS", description: "Western University", bg: "bg-secondary text-white" },
-    { icon: Code2, title: "Full-Stack", description: "Frontend & Backend", bg: "bg-accent" },
-    { icon: Sparkles, title: "AI / ML", description: "Applied ML projects", bg: "bg-mint" },
+    { icon: Award, title: "3.9 GPA", description: "Dean's List 2024–25, 2025–26", bg: "bg-primary" },
+    { icon: BookOpen, title: "Ivey HBA + CS", description: "Western University", bg: "bg-secondary text-white" },
+    { icon: Code2, title: "AWS ×2", description: "Cloud & AI Practitioner", bg: "bg-accent" },
+    { icon: Sparkles, title: "AI / ML", description: "Research @ BMO & Western", bg: "bg-mint" },
   ];
 
   const skills = [
-    "TypeScript", "React", "Next.js", "Node.js", "Python",
-    "PostgreSQL", "MongoDB", "Docker", "Git", "REST APIs",
-    "Machine Learning", "TensorFlow", "OpenCV", "Java", "C++",
-    "Tailwind CSS", "Supabase", "AWS", "Agile", "CI/CD",
+    "Python", "TypeScript", "JavaScript", "C", "Java", "SQL",
+    "React.js", "React Native", "Node.js", "Flask", "Flutter", "Tailwind CSS",
+    "PyTorch", "OpenCV", "NumPy", "Pandas", "Matplotlib",
+    "Firebase", "SQLite", "AWS Cloud", "Git", "GitHub Actions", "Figma",
+    "AWS Cloud Practitioner", "AWS AI Practitioner", "Google Cloud GenAI",
   ];
 
   return (
@@ -31,8 +32,8 @@ const About = () => {
               </span>.
             </h2>
             <p className="text-ink/80 max-w-2xl text-lg">
-              I'm a CS student at Western University building things at the intersection of
-              software engineering, AI, and developer tooling.
+              I'm pursuing an Ivey HBA + Honours Specialization in Computer Science at Western University,
+              building at the intersection of software engineering, AI, and business.
             </p>
           </div>
 
@@ -52,9 +53,9 @@ const About = () => {
             <div className="bg-card border-[3px] border-ink shadow-brutal p-8">
               <h3 className="font-display text-3xl font-normal mb-6">My Journey</h3>
               <div className="space-y-4 text-ink/85 leading-relaxed">
-                <p>As an Honours Specialization student at Western, I've maintained a perfect 4.0 GPA while diving deep into software, algorithms, and AI.</p>
-                <p>My passion is shipping things that solve real problems — from a campus lost & found used by hundreds of students to ML tools and developer utilities.</p>
-                <p>Outside coursework I contribute to open source, mentor peers, and explore anything that pushes the craft forward.</p>
+                <p>I'm in the Ivey HBA + Computer Science dual degree at Western (class of 2028), holding a 3.9 GPA and making the Dean's List every year.</p>
+                <p>I've done AI research at BMO and in adversarial ML at Western, built voice-AI systems at SalesCode.ai, and shipped campus apps with the Western Developers Society.</p>
+                <p>I'm AWS certified in Cloud and AI, and I love shipping things that solve real problems — like a lost & found platform for my whole campus.</p>
               </div>
             </div>
 
