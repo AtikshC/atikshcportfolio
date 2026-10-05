@@ -22,7 +22,7 @@ const Contact = () => {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-10">
             <div className="flex items-center gap-2 bg-background border-[3px] border-ink shadow-brutal-sm px-4 py-2">
               <MapPin className="w-4 h-4 text-ink" />
-              <span className="text-ink font-medium text-sm">Mississauga, ON, Canada</span>
+              <span className="text-ink font-medium text-sm">Toronto, ON, Canada</span>
             </div>
             <a href="mailto:atiksh.chawla06@gmail.com" className="flex items-center gap-2 bg-background border-[3px] border-ink shadow-brutal-sm px-4 py-2 hover:bg-accent transition-colors">
               <Mail className="w-4 h-4 text-ink" />

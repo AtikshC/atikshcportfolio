@@ -1,13 +1,13 @@
 const items = [
-  "Available May 2026",
+  "AI Research @ BMO",
   "★",
-  "Building in Mississauga",
+  "Based in Toronto",
   "★",
-  "Open to Internships",
+  "AWS Certified ×2",
   "★",
-  "Full-Stack · ML · Tooling",
+  "Full-Stack · ML · Voice AI",
   "★",
-  "Currently @ Western CS",
+  "Ivey HBA + Western CS",
   "★",
 ];
 
