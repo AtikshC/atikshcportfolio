@@ -7,7 +7,7 @@ const Contact = () => {
       <div className="container px-6">
         <div className="max-w-4xl mx-auto text-center">
           <span className="inline-block bg-background border-[3px] border-ink shadow-brutal-sm px-3 py-1 text-xs font-bold uppercase tracking-widest mb-6">
-            04 — Get In Touch
+            04 / Get In Touch
           </span>
           <h2 className="font-display text-5xl md:text-7xl font-normal text-ink mb-6 leading-[0.95]">
             Let's build something{" "}

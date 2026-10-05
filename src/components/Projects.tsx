@@ -41,7 +41,7 @@ const Projects = () => {
     },
     {
       title: "Voice AI Integration",
-      description: "Real-time speech recognition and intent parsing modules with microservices orchestrating ASR/NLU pipelines — built during my SalesCode.ai internship.",
+      description: "Real-time speech recognition and intent parsing modules with microservices orchestrating ASR/NLU pipelines, built during my SalesCode.ai internship.",
       technologies: ["Python", "Node.js", "ASR", "NLU", "Microservices"],
       githubUrl: "https://github.com/AtikshC",
       color: "bg-background",
@@ -54,7 +54,7 @@ const Projects = () => {
         <div className="max-w-6xl mx-auto">
           <div className="mb-16">
             <span className="inline-block bg-primary border-[3px] border-ink shadow-brutal-sm px-3 py-1 text-xs font-bold uppercase tracking-widest mb-6">
-              03 — Portfolio
+              03 / Portfolio
             </span>
             <h2 className="font-display text-5xl md:text-7xl font-normal text-ink mb-6 leading-[0.95]">
               Selected{" "}
